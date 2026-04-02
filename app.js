@@ -146,17 +146,17 @@ app.get('/v1/senai/help', function(request, response){
             },
             {
                 "id": 2,
-                "Rota 2" : "/v1/senai/estados/dados/sp",
+                "Rota 2" : "/v1/senai/estados/dados/mg",
                 "obs" : "retorna a lista de dados de um estado de acordo com a sigla"
             },   
             {
                 "id": 3,
-                "Rota 3" : "/v1/senai/estados/capital/sp",
+                "Rota 3" : "/v1/senai/estados/capital/mg",
                 "obs" : "retorna os dados da capital filtrando pela sigla do estado"
             },   
             {
                 "id": 4,
-                "Rota 4" : "/v1/senai/estados/regiao/sul",
+                "Rota 4" : "/v1/senai/estados/regiao/sudeste",
                 "obs" : "retorna todos os estados referente a uma região"
             },
             {
@@ -166,7 +166,7 @@ app.get('/v1/senai/help', function(request, response){
             },
             {
                 "id": 6,
-                "Rota 6" : "/v1/senai/cidades/{sigla}",
+                "Rota 6" : "/v1/senai/cidades/mg",
                 "obs" : "retorna todas cidades filtrando pela sigla do estado"
             }                  
         ]
