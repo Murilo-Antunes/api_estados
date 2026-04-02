@@ -141,32 +141,32 @@ app.get('/v1/senai/help', function(request, response){
         "endpoints": [
             {
                 "id": 1,
-                "Rota 1" : "http://localhost:8080/v1/senai/estados",
+                "Rota 1" : "/v1/senai/estados",
                 "obs" : "retorna a lista de todos estados"
             },
             {
                 "id": 2,
-                "Rota 2" : "http://localhost:8080/v1/senai/estados/dados/sp",
+                "Rota 2" : "/v1/senai/estados/dados/sp",
                 "obs" : "retorna a lista de dados de um estado de acordo com a sigla"
             },   
             {
                 "id": 3,
-                "Rota 3" : "http://localhost:8080/v1/senai/estados/capital/sp",
+                "Rota 3" : "/v1/senai/estados/capital/sp",
                 "obs" : "retorna os dados da capital filtrando pela sigla do estado"
             },   
             {
                 "id": 4,
-                "Rota 4" : "http://localhost:8080/v1/senai/estados/regiao/sul",
+                "Rota 4" : "/v1/senai/estados/regiao/sul",
                 "obs" : "retorna todos os estados referente a uma região"
             },
             {
                 "id": 5,
-                "Rota 5" : "http://localhost:8080/v1/senai/capital/pais",
+                "Rota 5" : "/v1/senai/capital/pais",
                 "obs" : "retorna todos os estados que já foram a capital do país"
             },
             {
                 "id": 6,
-                "Rota 6" : "http://localhost:8080/v1/senai/cidades/{sigla}",
+                "Rota 6" : "/v1/senai/cidades/{sigla}",
                 "obs" : "retorna todas cidades filtrando pela sigla do estado"
             }                  
         ]
